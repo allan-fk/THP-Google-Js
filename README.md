@@ -1,3 +1,3 @@
 # Google-js
 
-![alt text](https://github.com/tintinposey/Google-js/blob/master/Capture.png)
+![alt text](https://raw.githubusercontent.com/tintinposey/Google-js/master/Capture%20.png)
