@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Google</title>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href="style.css" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+
+	<header>
+		<ul>
+			<li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></li>
+			<li><a href="https://www.google.fr/imghp?hl=fr&tab=wi">Images</a></li>
+			<li><a href="#"><img src="icone_menu_grey.png" onmouseover="this.src='icone_menu_black.png'" onmouseout="this.src='icone_menu_grey.png'" alt="Menu"></a></li>
+			<li><a href="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.fr/"><img src="icone_connexion.png" alt="Connexion"></a></li>
+		</ul>
+	</header>
+
+	<section id="principal" style="display: none">
+		<center>
+		<div id="google_image">
+		<img id="logo" src="googlelogo.png"/>
+		<div style="position: relative; padding-left: 207px; top: -22px; color: #4285f4; font-size: 17px">France</div>
+		</div>
+		<div id="search-entry">
+			<form action="#" method="get" name="search_entry">
+				<input type="text" id="boite_recherche">
+					<center>
+						<a class="boutton_recherche" href="#" id="boutton_recherche_js">Recherche Google</a>
+						<a class="boutton_recherche" href="https://www.google.com/doodles">J'ai de la chance</a>
+						<a class="boutton_recherche" href="grille.html">Grille</a>
+						<!-- <button class="boutton_recherche">Recherche Google</button> -->
+						<!-- <button class="boutton_recherche">J'ai de la chance</button> -->
+					</center>
+			</form>
+		</div>
+		</center>
+		<div>
+ 			<a href="#null" onload="javascript:popuper1()"> </a>
+		</div>
+	</section>
+
+	<section id="avertisement" style="display: block">
+		<button id="boutton" class="Boutonstyle">
+			AFFICHER LES ÉLÉMENTS CENTRAUX
+		</button>
+	</section>
+
+	<div id="footer">	
+			<span class="right">
+				<a class="rg" href="https://www.google.fr/intl/fr/policies/privacy/?fg=1">Confidentialité</a>
+				<a class="rg" href="https://www.google.fr/intl/fr/policies/terms/?fg=1">Conditions</a>
+				<a class="rg" href="https://www.google.fr/preferences?hl=fr">Paramètres</a>
+			</span>
+			<span class="left">
+				<a href="https://www.google.fr/intl/fr/ads/?fg=1">Publicité</a>
+				<a href="https://www.google.fr/services/?fg=1#?modal_active=none">Entreprise</a>
+				<a href="https://www.google.fr/intl/fr/about/">À propos</a>
+			</span>
+	</div>
+
+<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+
+</html>

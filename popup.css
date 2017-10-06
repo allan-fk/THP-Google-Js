@@ -1,0 +1,87 @@
+.emailSignup {
+	display: block;
+  background: #fff;
+  width: 600px;
+  height: 350px;
+  margin: 0 0 20px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 30px;
+  text-align: center;
+  border-radius: 2px;
+  border: 10px solid #000;
+  
+}
+.emailSignup h2 {
+	font-size: 32px;
+	margin: 0 0 10px;
+  font-weight: 100;
+  text-transform: uppercase;
+   font-family: 'ProximaNova', sans-serif;
+  color: #000;
+}
+.emailSignup p {
+	font-size: 17px;
+	line-height: 1.4;
+	margin: 0 0 20px;
+  font-weight: 100;
+  font-family: 'ProximaNova', sans-serif;
+	color: #000;
+}
+
+.emailSignup h4 {
+	font-size: 13px;
+	margin-top: 30px;
+  margin-bottom: -20px;
+  font-weight: 100;
+	color: #000;
+}
+.emailSignup form {
+/*	text-align:center; */
+  margin-top: 40px;
+  
+}
+.emailSignup--email-input {
+	border: 0;
+  background: #ececec;
+	outline: 0;
+	width: 60%;
+	height: 46px;
+	line-height: 46px;
+	padding: 5px 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+	border-radius: 1px;
+}
+.emailSignup--email-submit {
+	border: 0;
+  margin-left: 10px;
+	width: 30%;
+	height: 46px;
+	line-height: 46px;
+	font-size: 22px;
+/*	font-weight: bold; */
+	background: #f04e98;
+	color: #FFFFFF;
+	font-family: 'ProximaNova', sans-serif;
+	border-radius: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
+
+.closeBox {
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: #fff;
+	line-height: 30px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 16px;
+  font-family: 'ProximaNova', sans-serif;
+	border-radius: 9999px;
+	cursor: pointer;
+}
